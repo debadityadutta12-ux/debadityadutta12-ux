@@ -26,7 +26,13 @@ body{
   font-family:var(--sans);
   line-height:1.65;
 }
-<img src="logo.png" alt="Debaditya Dutta Logo" class="site-logo">
+.site-logo{
+  height:40px;      /* adjust: 28–48px is ideal */
+  max-width:160px;  /* prevents horizontal blow-up */
+  width:auto;
+  object-fit:contain;
+}
+
 
 .container{
   max-width:1100px;
